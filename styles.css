@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+    line-height: 1.6;
+    color: #333;
+
+    padding-top: 87px;
+}
+
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+p{
+    font-family: Montserrat;
+    font-size: 22px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+
+}
+
+.intro {
+    width: 100%;
+}
+
+/* header */
+
+.header{
+    
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: black;
+}
+
+.header_logo{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header_inner{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.header_link{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* nav */
+
+.nav{
+    font-size: 18px;
+}
+
+.nav_link{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+
+    color: #fff;
+    text-decoration: none;
+    
+    transition: color .2s linear;
+}
+
+.nav_link:hover{
+    cursor: pointer;
+    color: #cfcfcf;
+}
+
+
+/* line-horizontal */
+
+.line-horizontal {
+    width: 100%; 
+    height: 1px; 
+    background-color: black; /
+}
+
+.marquee {
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+    padding: 3px 0;
+    font-family: Montserrat;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.marquee span {
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+}
+@keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+
+
+/* swiper */
+
+.swiper-container {
+    width: 100%;
+    height: 768px;
+    overflow: hidden; /* Скрыть скроллбар */
+}
+  
+.swiper-slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-size: 24px;
+    border: 1px solid #ccc;
+}
+
+/* button-product-link */
+
+.button-product{
+    width: 220px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-product:hover{
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.button-nav{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/* Login.html */
+
+.form-container{
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.button-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form-container button {
+    width: 180px;
+    height: 40px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.form-container input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 12px;
+    padding: 0 10px;
+    border: 2px solid #000;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.register {
+    background-color: #000;
+    color: #fff;
+}
+
+.register:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.login {
+    background-color: #fff;
+    color: #000;
+}
+
+.login:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+
+/* product */
+
+.product-item{
+    display: flex;
+    flex-wrap: wrap
+}
+
+.product-card{
+    max-width: 240px;
+    flex: 1 1 0;
+    text-align: center;
+    margin: 0 20px;
+    box-shadow:#323232;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.product-img {
+    width: 240px;
+    height: 350px;
+    background-color: #000;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
