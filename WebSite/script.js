@@ -6,12 +6,12 @@ const swiper = new Swiper('.swiper-container', {
     simulateTouch: true,     // Поддержка перетаскивания слайдов мышью
     touchEventsTarget: 'container', // На контейнере происходит перетаскивание
     autoplay: {
-      delay: 7000,           // Задержка между переключениями (в миллисекундах)
+      delay: 5000,           // Задержка между переключениями (в миллисекундах)
     },
     
     // Отключаем элементы навигации и пагинацию
     navigation: false,
-    pagination: false,s
+    pagination: false,
   });
 
 
