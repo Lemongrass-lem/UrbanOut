@@ -11,7 +11,7 @@ const swiper = new Swiper('.swiper-container', {
     
     // Отключаем элементы навигации и пагинацию
     navigation: false,
-    pagination: false,
+    pagination: false,s
   });
 
 
