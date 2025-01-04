@@ -40,14 +40,16 @@ header{
 
 .header{
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: black;
+    z-index: 3;
 }
 
 .header_logo{
+    display: flex;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -126,8 +128,8 @@ header{
 
 .swiper-container {
     z-index: 2;
-    width: 100%;
-    height: 768px;
+    width: auto;
+    height: auto;
     overflow: hidden; /* Скрыть скроллбар */
 }
   
@@ -141,10 +143,6 @@ header{
     border: 1px solid #ccc;
 }
 
-swiper-img{
-    width: 100%;
-    height: auto;
-}
 
 /* button-product-link */
 
@@ -291,8 +289,13 @@ swiper-img{
 
 .history-item{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
+    -webkit-flex-wrap: wrap; /* Для старых версий Safari */
+  
+    -webkit-justify-content: space-between; /* Для старых версий Safari */
 }
 
 .history-text{
@@ -350,3 +353,73 @@ swiper-img{
     text-decoration: none;
     color: #000;
 }
+
+
+
+/* burger menu*/
+
+.burger-menu {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .burger-toggle {
+    font-size: 24px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    position: absolute;
+    justify-content: center;
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+  }
+  
+  .menu.hidden {
+    display: none;
+  }
+  
+  .menu li {
+    z-index: 1;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .menu li button {
+    color: #333;
+    margin: 0 10px 0 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  section {
+    min-height: 100vh;
+    padding: 50px;
+    margin-top: 60px;
+  }
+  
+  section:nth-child(odd) {
+    background-color: #f4f4f4;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  .menu-img{
+    padding-top: 6px;
+    max-width: 24px;
+    max-height: 24px;
+  }

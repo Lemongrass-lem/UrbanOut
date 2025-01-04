@@ -20,8 +20,19 @@
             <div class="header_inner">
                 <div class="header_logo">
                     <a class="header_link" href="index.html">UrbanOut</a>
+                    <nav class="burger-menu">
+                        <button class="burger-toggle" onclick="toggleMenu()">
+                            <img class="menu-img" src="img/atribute/menu.png" alt="#">
+                        </button>
+                        <ul class="menu hidden">
+                          <li><button class="button-product" onclick="scrollToSection('tshort')">Футболки</button></li>
+                          <li><button class="button-product" onclick="scrollToSection('longsleeve')">Лонгсливы</button></li>
+                          <li><button class="button-product" onclick="scrollToSection('hoodies')">Худи</button></li>
+                          <li><button class="button-product" onclick="scrollToSection('trousers')">Брюки</button></li>
+                          <li><button class="button-product" onclick="scrollToSection('accessories')">Аксессуары</button></li>
+                        </ul>
+                      </nav>
                 </div>
-
                 <div class="nav">
                     <a class="nav_link" href="#">Корзина</a>
                     <a class="nav_link" href="login.html">Войти</a>
@@ -296,5 +307,6 @@
     
     <script src="popup.js"></script>
     <script src="script.js"></script>
+    <script src="burgerMenu.js"></script>
 </body>
 </html>
