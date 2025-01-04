@@ -141,6 +141,11 @@ header{
     border: 1px solid #ccc;
 }
 
+swiper-img{
+    width: 100%;
+    height: auto;
+}
+
 /* button-product-link */
 
 .button-product{
