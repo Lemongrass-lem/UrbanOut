@@ -330,10 +330,17 @@ header{
     padding: 30px 10px;
 }
 
+.popup-img{
+    width: 100%;
+    max-width: 480px;
+    height: 100%;
+    max-width: 700px;
+}
+
 .popup-content {
     background-color: #fff;
     color: #000;
-    max-width: 600px;
+    max-width: 1200px;
     padding: 30px;
     position: relative;
     border-radius: 8px;
@@ -354,7 +361,10 @@ header{
     color: #000;
 }
 
+.popup-shop-menu{
+    display: flex;
 
+}
 
 /* burger menu*/
 
@@ -423,3 +433,124 @@ header{
     max-width: 24px;
     max-height: 24px;
   }
+
+
+
+
+
+
+
+
+
+
+.product-details {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-subtitle {
+    font-size: 0.9rem;
+    color: #8f8f8f;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-sizes {
+    margin-bottom: 20px;
+}
+
+.size-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.size-option {
+    padding: 8px 12px;
+    border: 1px solid #000;
+    background-color: #f7f7f7;
+    color: #5a5a5a;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.size-option.selected {
+    background-color: #fff;
+    color: black;
+    border-color: #000;
+}
+
+.size-option:hover {
+    background-color: #000;
+    color: white;
+}
+
+.size-chart {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #888;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.product-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-to-cart {
+    flex: 1;
+    padding: 12px 20px;
+    background-color: #171717;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-btn {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    color: #000;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.quantity-btn:hover {
+    background-color: #eee;
+}
+
+.quantity {
+    font-size: 1rem;
+    min-width: 20px;
+    text-align: center;
+    font-family: Montserrat;
+}
