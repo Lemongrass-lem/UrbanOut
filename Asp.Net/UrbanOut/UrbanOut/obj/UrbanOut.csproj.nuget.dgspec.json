@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lasko\\OneDrive\\Рабочий стол\\SiteUrban\\UrbanOut\\Asp.Net\\UrbanOut\\UrbanOut\\UrbanOut.csproj": {}
+    "C:\\Users\\chaa\\vs\\Asp.Net\\UrbanOut\\UrbanOut\\UrbanOut.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lasko\\OneDrive\\Рабочий стол\\SiteUrban\\UrbanOut\\Asp.Net\\UrbanOut\\UrbanOut\\UrbanOut.csproj": {
+    "C:\\Users\\chaa\\vs\\Asp.Net\\UrbanOut\\UrbanOut\\UrbanOut.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lasko\\OneDrive\\Рабочий стол\\SiteUrban\\UrbanOut\\Asp.Net\\UrbanOut\\UrbanOut\\UrbanOut.csproj",
+        "projectUniqueName": "C:\\Users\\chaa\\vs\\Asp.Net\\UrbanOut\\UrbanOut\\UrbanOut.csproj",
         "projectName": "UrbanOut",
-        "projectPath": "C:\\Users\\lasko\\OneDrive\\Рабочий стол\\SiteUrban\\UrbanOut\\Asp.Net\\UrbanOut\\UrbanOut\\UrbanOut.csproj",
-        "packagesPath": "C:\\Users\\lasko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lasko\\OneDrive\\Рабочий стол\\SiteUrban\\UrbanOut\\Asp.Net\\UrbanOut\\UrbanOut\\obj\\",
+        "projectPath": "C:\\Users\\chaa\\vs\\Asp.Net\\UrbanOut\\UrbanOut\\UrbanOut.csproj",
+        "packagesPath": "C:\\Users\\chaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chaa\\vs\\Asp.Net\\UrbanOut\\UrbanOut\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudio\\SDK and all\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lasko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,12 +42,20 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,28 +67,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.101, 9.0.101]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

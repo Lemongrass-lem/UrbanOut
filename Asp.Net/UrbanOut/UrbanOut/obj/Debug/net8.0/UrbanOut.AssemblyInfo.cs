@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UrbanOut")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d7fa4fe162968db2b09e6a44df214e3c3bc78ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+865485b14d1e5a613ed7c3fcee4a5d020527f9c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("UrbanOut")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UrbanOut")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
