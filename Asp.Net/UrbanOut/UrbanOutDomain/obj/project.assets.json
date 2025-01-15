@@ -4734,24 +4734,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chaa\\.nuget\\packages\\": {},
-    "D:\\VisualStudio\\SDK and all\\NuGetPackages": {}
+    "C:\\Users\\lasko\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chaa\\vs\\Asp.Net\\UrbanOut\\UrbanOutDomain\\UrbanOutDomain.csproj",
+      "projectUniqueName": "C:\\Users\\lasko\\OneDrive\\Рабочий стол\\SiteUrban\\Asp.Net\\UrbanOut\\UrbanOutDomain\\UrbanOutDomain.csproj",
       "projectName": "UrbanOutDomain",
-      "projectPath": "C:\\Users\\chaa\\vs\\Asp.Net\\UrbanOut\\UrbanOutDomain\\UrbanOutDomain.csproj",
-      "packagesPath": "C:\\Users\\chaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chaa\\vs\\Asp.Net\\UrbanOut\\UrbanOutDomain\\obj\\",
+      "projectPath": "C:\\Users\\lasko\\OneDrive\\Рабочий стол\\SiteUrban\\Asp.Net\\UrbanOut\\UrbanOutDomain\\UrbanOutDomain.csproj",
+      "packagesPath": "C:\\Users\\lasko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lasko\\OneDrive\\Рабочий стол\\SiteUrban\\Asp.Net\\UrbanOut\\UrbanOutDomain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\VisualStudio\\SDK and all\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\chaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\lasko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4759,6 +4754,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4775,7 +4771,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       }
     },
     "frameworks": {
@@ -4808,12 +4804,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.101, 9.0.101]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

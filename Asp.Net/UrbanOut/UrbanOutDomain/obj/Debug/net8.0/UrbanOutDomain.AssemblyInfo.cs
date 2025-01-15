@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UrbanOutDomain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+422dd9eef8760e4b553b57e476186678f156c0e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75214c39bbb97487eafefab78d81e362b8699b69")]
 [assembly: System.Reflection.AssemblyProductAttribute("UrbanOutDomain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UrbanOutDomain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
